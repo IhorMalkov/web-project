@@ -1,0 +1,177 @@
+  /*-------------Nulls Css-----------------*/
+  * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  :focus,
+  :active {
+    outline: none;
+  }
+
+  a:focus,
+  a:active {
+    outline: none;
+  }
+
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+
+  input::-ms-clear {
+    display: none;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  img {
+    vertical-align: top;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+
+  /*-------------Header-----------------*/
+  .header {
+    width: 100%;
+    background-image: url(img/background.png);
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .header__container {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+
+  .header__menu {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .menu__list {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 41px;
+    align-items: center;
+  }
+
+  .menu__link {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #fff;
+    transition-delay: 0.2s;
+  }
+
+  .menu__link:hover {
+    text-decoration: underline;
+  }
+
+  .logo {
+    margin-left: 25px;
+  }
+
+  .social__networks {
+    display: flex;
+    flex: 1 1 auto;
+    margin-left: 200px;
+  }
+
+  .social__links {
+    margin-right: 35px;
+  }
+
+  .main__text {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+  }
+
+  .main__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+  }
+
+  .sub__text {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+  }
