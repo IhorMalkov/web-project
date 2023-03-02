@@ -175,3 +175,27 @@
     letter-spacing: 0.2px;
     color: #FFFFFF;
   }
+
+  /*-------------------------Main--------------------*/
+  .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  .try__button {
+    width: 236px;
+    height: 52px;
+    background: #2091F9;
+    border-radius: 35px;
+  }
+
+  .try__link {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+  }
