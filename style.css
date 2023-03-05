@@ -176,7 +176,6 @@
     color: #FFFFFF;
   }
 
-  /*-------------------------Main--------------------*/
   .button{
     display: flex;
     justify-content: center;
@@ -199,3 +198,5 @@
     letter-spacing: 0.2px;
     color: #FFFFFF;
   }
+
+   /*-------------------------Main--------------------*/
